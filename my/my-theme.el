@@ -1,3 +1,3 @@
-(require 'zenburn-theme)
+(require 'monokai-theme)
 
 (provide 'my-theme)
