@@ -24,6 +24,7 @@
    itail
    powerline
    smart-indent-rigidly
+   alchemist
    my-theme
    my-isearch
    my-advice

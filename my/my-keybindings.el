@@ -81,9 +81,11 @@
 (global-set-key (kbd "C-x C-k") 'kill-focused-buffer)
 (global-set-key (kbd "C-x C-S-f") 'find-file-other-window)
 
-(global-set-key (kbd "M-j m q") 'emms-add-directory-tree)
+(global-set-key (kbd "M-j m q") 'emms-add-directory-ptree)
 (global-set-key (kbd "M-j m p") 'emms-play-directory-tree)
 (global-set-key (kbd "M-j m f") 'emms-next)
 (global-set-key (kbd "M-j m b") 'emms-previous)
+
+(global-set-key (kbd "M-j t") 'alchemist-mix-test)
 
 (provide 'my-keybindings)
