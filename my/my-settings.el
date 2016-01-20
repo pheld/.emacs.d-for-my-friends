@@ -64,4 +64,6 @@
 
 ;; END ESLINT STUFF
 
+(setq whitespace-action nil)
+
 (provide 'my-settings)
