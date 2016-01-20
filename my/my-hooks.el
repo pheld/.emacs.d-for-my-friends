@@ -12,9 +12,7 @@
 (defun major-mode-match-p (mode)
   (string-match mode (symbol-name major-mode)))
 
-(hook-unless 'find-file-hook (major-mode-match-p "makefile") (untabify-all))
 (hook-unless 'find-file-hook buffer-read-only (delete-trailing-whitespace))
-(hook-unless 'before-save-hook (major-mode-match-p "makefile") (untabify-all))
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
 (add-hook 'before-save-hook 'auto-make-directory)
 (add-hook 'after-save-hook 'executable-make-buffer-file-executable-if-script-p)
