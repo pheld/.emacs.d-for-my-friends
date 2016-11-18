@@ -64,6 +64,4 @@
 
 ;; END ESLINT STUFF
 
-(auto-fill-mode nil)
-
 (provide 'my-settings)
