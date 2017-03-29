@@ -39,7 +39,7 @@
  '(eshell-cmpl-cycle-cutoff-length 10)
  '(eshell-cmpl-expand-before-complete t)
  '(flycheck-eslintrc ".eslintrc")
- '(flycheck-temp-prefix "flycheck")
+ '(flycheck-temp-prefix ".flycheck")
  '(fringe-mode (quote (1 . 1)) nil (fringe))
  '(global-auto-complete-mode t)
  '(global-auto-revert-mode t)
@@ -69,7 +69,7 @@
  '(ido-mode (quote both) nil (ido))
  '(ido-ubiquitous-mode t)
  '(ido-use-virtual-buffers t)
- '(indent-tabs-mode t)
+ '(indent-tabs-mode nil)
  '(indicate-buffer-boundaries (quote left))
  '(indicate-empty-lines t)
  '(inferior-lisp-program "sbcl" t)
@@ -78,6 +78,7 @@
  '(itail-fancy-mode-line t)
  '(itail-tail-flags "-n100 -f")
  '(js-indent-level 2)
+ '(coffee-tab-width 4)
  '(js2-auto-indent-p nil)
  '(js2-basic-offset 2)
  '(js2-bounce-indent-p t)
@@ -129,6 +130,7 @@
  '(whitespace-global-modes t)
  '(whitespace-line-column 800)
  '(yank-pop-change-selection t))
+ '(auto-fill-mode nil)
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
