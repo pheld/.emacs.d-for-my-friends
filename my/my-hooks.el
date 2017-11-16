@@ -37,6 +37,8 @@
    (rvm-activate-corresponding-ruby)
    (flymake-ruby-load)))
 
+(add-hook 'after-init-hook #'global-flycheck-mode)
+
 (add-hook
  'js-mode-hook
  (lambda ()
