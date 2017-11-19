@@ -43,7 +43,8 @@
  'js-mode-hook
  (lambda ()
    (auto-indent-mode)
-   (linum-mode)))
+   (linum-mode)
+   (add-node-modules-path)))
 
 (add-hook
  'coffee-mode-hook
